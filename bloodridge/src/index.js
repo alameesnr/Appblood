@@ -9,7 +9,7 @@ connectDB();
 
 const app = express();
 app.use(cors({
-  origin: ['http://localhost:5173', 'https://your-netlify-site.netlify.app'], // add your frontend URL
+  origin: ['http://172.20.10.2:8080', 'https://blood-bridge-naija.lovable.app/'], // add your frontend URL
   credentials: true,
 }));
 
